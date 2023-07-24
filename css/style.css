@@ -16,6 +16,7 @@ body{
 }
 
 .container{
+  position: relative;
   width: 70%;
   max-width: 1200px;
   margin: 0 auto;
@@ -25,6 +26,13 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
 .debug-box{
   background-color: rgba(255, 0, 0, .2);
   border: 1px solid black;
@@ -35,6 +43,10 @@ a {
 
 .d-flex{
   display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .justify-betw {
@@ -103,8 +115,28 @@ ul li {
  }
 
  /* main */
- #jumbotron {
+ #jumbotron{
   margin-top: 80px;
-  font-size: 3rem;
   background-color: var(--main-background);
+ }
+
+ .left-jumbo-text {
+  width: 30%;
+ }
+
+ .left-jumbo-text a {
+  margin-top: 20px;
+ }
+
+ .right-jumbo-img{
+  float: right;
+  width: 70%;
+ }
+
+ i {
+  color: black;
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   bottom: 0;
  }
