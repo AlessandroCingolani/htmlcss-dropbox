@@ -31,7 +31,8 @@ img {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 .debug-box{
@@ -79,6 +80,7 @@ ul li {
 
 /* header */
  header {
+  background-color: white;
   position: fixed;
   z-index: 999;
   right: 0;
@@ -116,6 +118,7 @@ ul li {
  }
 
  /* main */
+
  #jumbotron{
   margin-top: 80px;
   background-color: var(--main-background);
