@@ -238,3 +238,7 @@ ul li {
 }
 
 /* section left img with right text */
+
+.container-small .img-left {
+  width: 65%;
+}
