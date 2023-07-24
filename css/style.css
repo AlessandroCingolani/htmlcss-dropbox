@@ -77,6 +77,11 @@ h1 {
 .col-direction {
   flex-direction: column;
 }
+
+.strecth {
+  align-items: stretch;
+}
+
 ul li {
   text-transform: capitalize;
   list-style: none;
@@ -173,4 +178,9 @@ ul li {
 
 .blu-radius {
   margin-right: 40px;
+}
+
+
+.col {
+  width: calc(100% / 3);
 }
