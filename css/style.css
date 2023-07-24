@@ -1,3 +1,12 @@
+:root{
+  --main-font: 'Open Sans', sans-serif;
+  --main-background:rgb(180, 208, 231);
+  --button-blue:rgb(0, 97, 255);
+}
+
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +14,7 @@
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family:var(--main-font)
 }
 
 .container{
