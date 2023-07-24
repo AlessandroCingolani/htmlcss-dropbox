@@ -32,6 +32,7 @@ img {
 
 h1 {
   font-size: 3rem;
+  padding-bottom: 50px;
 }
 .debug-box{
   background-color: rgba(255, 0, 0, .2);
