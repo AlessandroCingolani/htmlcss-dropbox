@@ -82,6 +82,10 @@ h1 {
   flex-shrink: 0;
 }
 
+.stretch {
+  align-items: stretch;
+}
+
 ul li {
   text-transform: capitalize;
   list-style: none;
@@ -94,7 +98,7 @@ ul li {
 }
 
 .gray-border {
-  border: 1px solid rgba(128, 128, 128, 0.515);
+  border: 1px solid gray;
 }
 /* header */
  header {
@@ -144,6 +148,7 @@ ul li {
 
  .left-jumbo-text {
   width: 30%;
+  min-width: 200px;
   padding-bottom: 50px;
  }
 
@@ -187,12 +192,47 @@ ul li {
 .col {
   width: calc(100% / 3 - 40px);
   font-size: .8rem;
+  min-width: 255px;
 }
 
 .details-pagment {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 30px 20px 40px;
 }
 
 .details-pagment ul li {
   padding-top: 10px;
+}
+
+/* enterprise section */
+
+.enterprise-details {
+  margin-top: 50px;
+}
+
+.enterprise-details .mini-title {
+  width: 100%;
+  text-align: center;
+}
+
+.contents-enterprise {
+  width: 70%;
+  padding-left:10px ;
+}
+
+.button-enterprise {
+  width: 30%;
+}
+
+.contents-enterprise h3 {
+  width: 100%;
+  padding-top: 30px ;
+  padding-bottom: 33px;
+}
+.contents-enterprise h4 {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.button-enterprise {
+  padding-top: 30px;
 }
