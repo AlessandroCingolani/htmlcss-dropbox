@@ -184,3 +184,7 @@ ul li {
 .col {
   width: calc(100% / 3);
 }
+
+.single-method {
+  width: 100%;
+}
