@@ -277,21 +277,25 @@ ul li {
 
 .square-items {
   width: calc(100vw - 20px);
-  height: calc(100vh - 300px);
+  height: calc(100vh - 240px);
 }
 
 .square {
   width: calc(100% / 2);
-  height: auto;
+  height: 50%;
 }
 
 .left-square,
 .middle-section,
 .right-square {
   width:calc(100% / 3);
-  
 }
 
 .middle-section {
   overflow-y: auto;
+}
+
+.square > img {
+  width: 50%;
+  height: 50%;
 }
