@@ -86,6 +86,7 @@ h1 {
   align-items: stretch;
 }
 
+
 ul li {
   text-transform: capitalize;
   list-style: none;
@@ -239,6 +240,21 @@ ul li {
 
 /* section left img with right text */
 
+.section-img-left{
+  margin-top: 150px;
+}
+
 .container-small .img-left {
   width: 65%;
+}
+
+.text-right-img {
+  width: 35%;
+  padding: 50px 0 0 40px;
+}
+
+/* section 6 col with img */
+
+.section-six-col {
+  margin-top: 165px;
 }
