@@ -15,10 +15,17 @@ body{
   font-family:var(--main-font)
 }
 
-.container{
+.container-jumbo{
   position: relative;
   width: 70%;
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-small {
+  position: relative;
+  width: 60%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -139,8 +146,20 @@ ul li {
   width: 70%;
  }
 
- i {
-  
-  height: 50px;
-  width: 50px;
- }
+#anchor {
+  position: relative;
+  font-size: 3rem;
+}
+
+#anchor i {
+  font-weight: bolder;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* option-section */
+
+.option-section {
+  margin-top: 150px;
+}
+
