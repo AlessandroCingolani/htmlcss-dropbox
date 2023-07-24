@@ -74,6 +74,9 @@ h1 {
   justify-content: center;
 }
 
+.col-direction {
+  flex-direction: column;
+}
 ul li {
   text-transform: capitalize;
   list-style: none;
@@ -163,3 +166,11 @@ ul li {
   margin-top: 150px;
 }
 
+.option-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 80px;
+}
+
+.blu-radius {
+  margin-right: 40px;
+}
