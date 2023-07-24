@@ -37,6 +37,10 @@ body{
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .flex-align-center {
   align-items: center;
 }
@@ -48,8 +52,18 @@ body{
 /* header */
  header {
   position: fixed;
-  width: 100%;
+  right: 0;
   height: 80px;
   left: 0;
   top: 0;
+ }
+
+ .left-menu ul li {
+  text-transform: capitalize;
+  list-style: none;
+  padding-left: 40px;
+ }
+ 
+ .left-menu {
+  padding-left: 20px;
  }
