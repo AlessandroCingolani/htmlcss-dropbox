@@ -258,3 +258,40 @@ ul li {
 .section-six-col {
   margin-top: 165px;
 }
+
+/* section number team */
+
+#number-teams {
+
+  margin-top: 210px;
+  margin-bottom: 150px;
+}
+
+#number-teams h2{
+  width: 80%;
+  padding-bottom: 70px;
+  font-size: 2.7rem;
+}
+
+/* square section */
+
+.square-items {
+  width: calc(100vw - 20px);
+  height: calc(100vh - 300px);
+}
+
+.square {
+  width: calc(100% / 2);
+  height: auto;
+}
+
+.left-square,
+.middle-section,
+.right-square {
+  width:calc(100% / 3);
+  
+}
+
+.middle-section {
+  overflow-y: auto;
+}
