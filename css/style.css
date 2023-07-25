@@ -343,7 +343,7 @@ i.fa-li {
 .left-square,
 .middle-section,
 .right-square {
-  width:calc(100% / 3);
+  width:calc(100vw / 3);
 }
 
 .middle-section {
@@ -358,6 +358,8 @@ i.fa-li {
 
 .middle-section img{
   width: 50%;
+  
+
 }
 
 .middle-section .text-companies {
@@ -370,6 +372,41 @@ i.fa-li {
   margin-top: 60px;
 }
 
+#designit {
+  background-color: var(--square-green);
+}
+
+#asu {
+  background-color: var(--square-asu-un);
+}
+
+#uf-florida {
+  background-color: var(--button-blue);
+}
+
+#topps {
+  background-color: var(--square-orange);
+}
+
+#bicy {
+  background-color: var(--square-orange);
+}
+
+#hearts {
+  background-color: var(--main-background);
+}
+
+#lonely {
+  background-color: var(--square-bold-blue);
+}
+
+#channel {
+  background-color: var(--square-yellow);
+}
+
+.left-square img,.right-square img {
+  filter: invert(1);
+}
 /* free trial section */
 
 .free-trial {
