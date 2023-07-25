@@ -116,6 +116,10 @@ ul li {
   top: 0;
  }
 
+ header li:hover {
+  border-bottom: 1px solid black;
+ }
+
  .left-menu ul li {
   margin-left: 40px;
   color: black;
@@ -274,17 +278,43 @@ ul li {
   padding: 50px 0 0 40px;
 }
 
+.text-right-img h2 {
+  margin-bottom: 20px;
+}
+
+.text-right-img div {
+  margin-top: 35px;
+}
+
 /* section 6 col with img */
 
 .section-six-col {
   margin-top: 165px;
 }
 
+.section-six-col .col {
+  margin-bottom: 50px;
+}
+
+.section-six-col h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-six-col .row .col h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.section-six-col .row .col span {
+  font-size: .9rem;
+}
+
 /* section number team */
 
 #number-teams {
 
-  margin-top: 210px;
+  margin-top: 160px;
   margin-bottom: 150px;
 }
 
