@@ -87,6 +87,9 @@ h1 {
   align-items: stretch;
 }
 
+i {
+  padding-right: 5px;
+}
 
 ul li {
   text-transform: capitalize;
@@ -160,7 +163,7 @@ ul li {
 
  .right-jumbo-img{
   float: right;
-  width: 70%;
+  width: 65%;
  }
 
 #anchor {
@@ -207,8 +210,8 @@ ul li {
   min-width: 255px;
 }
 
-.details-pagment {
-  padding: 20px 30px 20px 40px;
+.fa-ul li {
+  text-align: left;
 }
 
 .details-pagment ul li {
@@ -218,7 +221,7 @@ ul li {
 /* enterprise section */
 
 .enterprise-details {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .enterprise-details .mini-title {
@@ -228,7 +231,7 @@ ul li {
 
 .contents-enterprise {
   width: 70%;
-  padding-left:10px ;
+  padding-left:20px ;
 }
 
 .button-enterprise {
@@ -237,12 +240,19 @@ ul li {
 
 .contents-enterprise h3 {
   width: 100%;
+  font-size: 1.8rem;
   padding-top: 30px ;
-  padding-bottom: 33px;
+  padding-bottom: 20px;
 }
 .contents-enterprise h4 {
   width: 100%;
+  font-weight: 510;
   padding-bottom: 50px;
+}
+
+.contents-enterprise span {
+  font-size: 0.9rem;
+  padding-bottom: 30px;
 }
 
 .button-enterprise {
