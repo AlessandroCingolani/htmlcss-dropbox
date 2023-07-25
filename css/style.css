@@ -21,15 +21,11 @@ body{
 }
 
 .container-jumbo{
-  position: relative;
-  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .container-small {
-  position: relative;
-  width: 60%;
   max-width: 1000px;
   margin: 0 auto;
 }
