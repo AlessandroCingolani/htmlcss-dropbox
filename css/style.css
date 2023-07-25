@@ -531,9 +531,8 @@ footer {
   color: white;
 }
 
-.line-footer {
-  text-align: left;
-  width: 10%;
-  height: 1px;
-  border: 1px solid white;
+
+.row-footer .col-footer:first-child {
+  padding-bottom: 80px;
+  border-bottom: 1px solid white;
 }
