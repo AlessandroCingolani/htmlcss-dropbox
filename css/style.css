@@ -380,6 +380,7 @@ i.fa-li {
 .square {
   width: calc(100% / 2);
   height: 50%;
+  transition: all .8s;
 }
 
 .left-square,
@@ -414,7 +415,7 @@ i.fa-li {
   margin-top: 60px;
 }
 
-#designit:active{
+.square:active{
   outline: solid 12px rgb(188, 243, 181);
   outline-offset: -12px;
 } 
