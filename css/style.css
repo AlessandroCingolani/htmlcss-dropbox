@@ -310,3 +310,25 @@ ul li {
   padding-top: 30px;
   border-top: 1px solid black;
 }
+
+.middle-section .ceo {
+  margin-top: 60px;
+}
+
+/* free trial section */
+
+.free-trial {
+  background-color: var(--main-background);
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+
+#trial-title {
+  width: 60%;
+  font-size: 1.6rem;
+}
+
+.white-btn {
+  width: 40%;
+  text-align: right;
+}
