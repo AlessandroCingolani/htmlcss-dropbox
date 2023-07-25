@@ -96,6 +96,10 @@ ul li {
   list-style: none;
 }
 
+i.fa-li {
+  margin-left: 20px;
+}
+
 .btn {
   background-color: var(--button-blue);
   color: white;
