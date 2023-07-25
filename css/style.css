@@ -112,6 +112,9 @@ i.fa-li {
   padding: 8px 15px;
 }
 
+.btn-large {
+  padding: 9px 70px 9px 70px;
+}
 .facture-type i:hover {
   cursor: pointer;
 }
