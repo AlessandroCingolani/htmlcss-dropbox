@@ -235,10 +235,24 @@ i.fa-li {
 
 .fa-ul li {
   padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .fa-ul h3 {
   font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.fa-ul .price {
+  font-weight: 600;
+}
+
+.fa-ul .time-pag {
+  color: gray;
+}
+
+.fa-check {
+  color: blue;
 }
 
 .details-pagment ul li {
@@ -350,7 +364,7 @@ i.fa-li {
   padding-bottom: 70px;
   font-size: 2.7rem;
 }
-#number-teams a {
+#number-teams a ,.line-a {
   text-decoration: underline;
 }
 /* square section */
