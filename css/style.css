@@ -352,3 +352,10 @@ ul li {
 .questions > i {
   font-size: 0.8rem;
 }
+
+/* footer  */
+
+footer {
+  background-color: black;
+  color: white;
+}
