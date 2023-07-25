@@ -385,6 +385,10 @@ i.fa-li {
   background-color: var(--button-blue);
 }
 
+#uf-florida img {
+  height: 10%;
+}
+
 #topps {
   background-color: var(--square-orange);
 }
@@ -451,4 +455,25 @@ i.fa-li {
 footer {
   background-color: black;
   color: white;
+}
+
+.col-footer {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.col-footer h3 {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.col-footer ul a li {
+  margin-bottom: 20px;
+}
+
+.line-footer {
+  text-align: left;
+  width: 10%;
+  height: 1px;
+  border: 1px solid white;
 }
