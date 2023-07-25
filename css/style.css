@@ -112,6 +112,15 @@ i.fa-li {
   padding: 8px 15px;
 }
 
+.facture-type i:hover {
+  cursor: pointer;
+}
+
+.facture-type i:active{
+  border-radius: 50% ;
+  color: blue;
+}
+
 .gray-border {
   border: 1px solid gray;
 }
@@ -206,7 +215,7 @@ i.fa-li {
   margin-bottom: 50px;
 }
 
-.blu-radius {
+.radius {
   margin-right: 40px;
 }
 
@@ -334,7 +343,9 @@ i.fa-li {
   padding-bottom: 70px;
   font-size: 2.7rem;
 }
-
+#number-teams a {
+  text-decoration: underline;
+}
 /* square section */
 
 .square-items {
@@ -378,6 +389,11 @@ i.fa-li {
 .middle-section .ceo {
   margin-top: 60px;
 }
+
+#designit:active{
+  outline: solid 12px rgb(188, 243, 181);
+  outline-offset: -12px;
+} 
 
 #designit {
   background-color: var(--square-green);
@@ -441,7 +457,7 @@ i.fa-li {
 /* frequent-questions section */
 
 .frequent-questions {
-  margin-top: 165px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
