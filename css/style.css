@@ -332,3 +332,23 @@ ul li {
   width: 40%;
   text-align: right;
 }
+
+/* frequent-questions section */
+
+.frequent-questions {
+  margin-top: 165px;
+  margin-bottom: 100px;
+}
+
+.frequent-questions h2 {
+  margin-bottom: 69px;
+}
+
+.questions {
+  padding: 30px 0 30px 0;
+  border-top:1px solid black ;
+}
+
+.questions > i {
+  font-size: 0.8rem;
+}
