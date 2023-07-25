@@ -234,7 +234,11 @@ i.fa-li {
 }
 
 .fa-ul li {
-  text-align: left;
+  padding-bottom: 20px;
+}
+
+.fa-ul h3 {
+  font-size: 1.5rem;
 }
 
 .details-pagment ul li {
@@ -242,6 +246,9 @@ i.fa-li {
   padding-left: 15px;
 }
 
+.plan-info {
+  padding-top: 20px;
+}
 /* enterprise section */
 
 .enterprise-details {
