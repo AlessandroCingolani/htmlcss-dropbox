@@ -189,6 +189,9 @@ ul li {
   margin-right: 40px;
 }
 
+.details-pagment {
+  height: 100%;
+}
 
 .col {
   width: calc(100% / 3 - 40px);
