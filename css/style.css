@@ -138,6 +138,10 @@ i.fa-li {
   border-right: 1px solid gray;
 }
 
+.gray-border-bottom {
+  border-bottom: 1px solid gray;
+}
+
 .hidden-content {
   margin-top: 20px;
   display: none;
