@@ -154,7 +154,7 @@ i.fa-li {
   display: block;
   font-size: small;
   font-weight: 400;
-  width: 80%;
+  width: 90%;
 }
 
 /* header */
@@ -168,13 +168,11 @@ i.fa-li {
   top: 0;
  }
 
- header li:hover {
-  border-bottom: 1px solid black;
+ header a:hover {
+  border-bottom: 4px solid black;
  }
 
- header ul {
-  height: 100%;
- }
+
  .left-menu ul li {
   margin-left: 40px;
   color: black;
