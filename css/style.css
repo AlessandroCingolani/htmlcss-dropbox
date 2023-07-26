@@ -549,3 +549,11 @@ footer {
   padding-bottom: 80px;
   border-bottom: 1px solid white;
 }
+
+footer .fa-earth-americas {
+  padding-right: 10px;
+}
+
+footer .language {
+  padding-bottom: 50px;
+}
