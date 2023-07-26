@@ -195,10 +195,12 @@ i.fa-li {
 #anchor {
   position: relative;
   font-size: 3rem;
+  
 }
 
 #anchor i {
   font-weight: bolder;
+  color: black;
   margin-top: 10px;
   padding-bottom: 10px;
 }
@@ -416,7 +418,7 @@ i.fa-li {
 }
 
 .square:active{
-  outline: solid 12px rgb(188, 243, 181);
+  outline: solid 12px rgba(255, 255, 255, 0.339);
   outline-offset: -12px;
 } 
 
