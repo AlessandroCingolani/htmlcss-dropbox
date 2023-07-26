@@ -137,6 +137,22 @@ i.fa-li {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
+
+.hidden-content {
+  margin-top: 20px;
+  display: none;
+}
+.questions:hover {
+  cursor: pointer;
+}
+
+.questions:hover .hidden-content{
+  display: block;
+  font-size: small;
+  font-weight: 400;
+  width: 80%;
+}
+
 /* header */
  header {
   background-color: white;
